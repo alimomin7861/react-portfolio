@@ -1,8 +1,12 @@
 import React from 'react';
-import './Projects.css'; // Import the CSS file for styling
-import EmployeeTrackerImage from '../../assets/EmployeeTracker.png'; // Import the image file for the Employee Tracker project
-import Project2Image from '../../assets/Project2.png'; // Import the image file for the second project
-import Project3Image from '../../assets/Project3.png'; // Import the image file for the third project
+import './Projects.css';
+import Project1Image from '../../assets/Project1.png';
+import Project2Image from '../../assets/Project2.png'; 
+import Project3Image from '../../assets/Project3.png'; 
+import Project4Image from '../../assets/Project4.png'; 
+import Project5Image from '../../assets/Project5.png'; 
+import Project6Image from '../../assets/Project6.png'; 
+
 
 function Projects() {
   return (
@@ -16,18 +20,18 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={EmployeeTrackerImage} alt="Employee Tracker frontend" />
+            <img src={Project1Image} alt="Employee Tracker frontend" />
           </a>
           <div className="project-links">
             <a
-              href="deployedURLGoesHere"
+              href="https://drive.google.com/file/d/1EX5khPwEd0p7yEnN7F26mufVfvFOdbzE/view"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Deployed App
+              Video Tutorial
             </a>
             <a
-              href="githubURLGoesHere"
+              href="https://github.com/alimomin7861/employee-tracker"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -36,9 +40,8 @@ function Projects() {
           </div>
         </div>
 
-        {/* Additional projCard divs for other projects */}
         <div className="projCard">
-          <h3>Project 2</h3>
+          <h3>Social Network API</h3>
           <a
             href="webiteURLGoesHere"
             target="_blank"
@@ -48,14 +51,14 @@ function Projects() {
           </a>
           <div className="project-links">
             <a
-              href="deployedURLGoesHere"
+              href="https://drive.google.com/file/d/1TsHdBmwKi6jocZueEtwXcLSj7HlL6mro/view"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Deployed App
+              Video Tutorial
             </a>
             <a
-              href="githubURLGoesHere"
+              href="https://github.com/alimomin7861/NoSQL-Social-Network-API"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -65,7 +68,7 @@ function Projects() {
         </div>
 
         <div className="projCard">
-          <h3>Project 3</h3>
+          <h3>Note Taker</h3>
           <a
             href="webiteURLGoesHere"
             target="_blank"
@@ -92,24 +95,24 @@ function Projects() {
         </div>
 
         <div className="projCard">
-          <h3>Project 4</h3>
+          <h3>Randomized Password Generator</h3>
           <a
             href="webiteURLGoesHere"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={Project3Image} alt="Project 4 frontend" />
+            <img src={Project4Image} alt="Project 4 frontend" />
           </a>
           <div className="project-links">
             <a
-              href="deployedURLGoesHere"
+              href="https://alimomin7861.github.io/Randomized-Password-Generator/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Deployed App
             </a>
             <a
-              href="githubURLGoesHere"
+              href="https://github.com/alimomin7861/Randomized-Password-Generator"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -119,24 +122,24 @@ function Projects() {
         </div>
 
         <div className="projCard">
-          <h3>Project 5</h3>
+          <h3>Coding Quiz</h3>
           <a
             href="webiteURLGoesHere"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={Project3Image} alt="Project 5 frontend" />
+            <img src={Project5Image} alt="Project 5 frontend" />
           </a>
           <div className="project-links">
             <a
-              href="deployedURLGoesHere"
+              href="https://alimomin7861.github.io/Full-Stack-Coding-Quiz/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Deployed App
             </a>
             <a
-              href="githubURLGoesHere"
+              href="https://github.com/alimomin7861/Full-Stack-Coding-Quiz"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -146,24 +149,24 @@ function Projects() {
         </div>
 
         <div className="projCard">
-          <h3>Project 6</h3>
+          <h3>Weather Dashboard</h3>
           <a
             href="webiteURLGoesHere"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={Project3Image} alt="Project 6 frontend" />
+            <img src={Project6Image} alt="Project 6 frontend" />
           </a>
           <div className="project-links">
             <a
-              href="deployedURLGoesHere"
+              href="https://alimomin7861.github.io/weather-dashboard/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Deployed App
             </a>
             <a
-              href="githubURLGoesHere"
+              href="https://github.com/alimomin7861/weather-dashboard"
               target="_blank"
               rel="noopener noreferrer"
             >

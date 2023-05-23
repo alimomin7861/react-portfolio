@@ -1,4 +1,5 @@
 import React from 'react';
+import resumeFile from '../../assets/AliMomin_Resume.docx'; // Update the import statement with the correct path to your resume file
 import '../Resume/Resume.css';
 
 function Resume() {
@@ -8,12 +9,11 @@ function Resume() {
       <div className="resume-container">
         <h3>Download Resume</h3>
         <a
-          href="/path/to/your/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
+          href={resumeFile}
+          download="AliMomin_Resume.docx" // Specify the filename for the downloaded file
           className="resume-link"
         >
-          Download PDF
+          Download Resume
         </a>
         <h3>Proficiencies</h3>
         <ul className="proficiencies-list">
@@ -21,7 +21,9 @@ function Resume() {
           <li>CSS</li>
           <li>JavaScript</li>
           <li>React</li>
-          {/* Add more proficiencies as needed */}
+          <li>Node.js</li>
+          <li>Mongo.DB</li>
+          <li>Express.js</li>
         </ul>
       </div>
     </section>

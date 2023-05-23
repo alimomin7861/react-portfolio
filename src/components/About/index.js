@@ -1,22 +1,22 @@
 import React from 'react';
-import './About.css'; // Import the CSS file for styling
-import avatarImage from '../../assets/avatar.png'; // Import the image file for the avatar
+import avatarImage from '../../assets/avatar.png';
+import './About.css';
 
 function About() {
   return (
-    <section className="about-container"> {/* Add a class name for the container */}
+    <section>
       <h1>About Me</h1>
-      <div className="about-content">
-        <img src={avatarImage} alt="Avatar" className="avatar" /> {/* Display the avatar image */}
-        <div className="bio">
+      <div className="about-container">
+        <img src={avatarImage} alt="Avatar" className="avatar" />
+        <div className="about-content">
           <p>
-            Hi there! I'm [Your Name], a passionate [Your Profession] based in [Your Location]. I have [Number of Years] years of experience in [Your Area of Expertise] and enjoy creating [Your Specialties]. I'm dedicated to [Your Mission or Goal].
+            My name is Ali Momin. I recently completed a Full-stack coding bootcamp and I'm passionate about becoming a full-stack developer. Currently, I am working in Client Operations for a listings and reputation management company, where I gained valuable experience in customer service and problem-solving.
           </p>
           <p>
-            In my free time, I love [Your Hobbies or Interests]. I also believe in giving back to the community, and I actively contribute to [Any Organizations or Causes] to make a positive impact.
+            I graduated from Pomona College with a B.A. in Molecular Biology, where I developed a strong analytical mindset and attention to detail. Although my background is in science, I have always been drawn to technology and coding, which led me to pursue a career in web development.
           </p>
           <p>
-            Feel free to explore my portfolio to see some of my previous work. If you have any questions or would like to collaborate, please don't hesitate to get in touch!
+            I am excited to apply my knowledge and skills in web development to create innovative and user-friendly applications. I enjoy working in a collaborative environment, solving complex problems, and continuously learning new technologies. My goal is to contribute to meaningful projects and make a positive impact in the tech industry.
           </p>
         </div>
       </div>

@@ -7,21 +7,21 @@ const Footer = () => {
     <footer className="footer">
       <div className="social-icons">
         <a
-          href="https://github.com/your-github-profile"
+          href="https://github.com/alimomin7861"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub className="icon" />
         </a>
         <a
-          href="https://linkedin.com/your-linkedin-profile"
+          href="https://linkedin.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaLinkedin className="icon" />
         </a>
         <a
-          href="https://twitter.com/your-twitter-profile"
+          href="https://twitter.com/"
           target="_blank"
           rel="noopener noreferrer"
         >

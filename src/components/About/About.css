@@ -17,3 +17,19 @@ p {
     margin-bottom: 15px;
 }
   
+.about-container {
+    display: flex;
+    align-items: center;
+}
+  
+.avatar {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+  
+.about-content {
+    flex: 1;
+}
+  
